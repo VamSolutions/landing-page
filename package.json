@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development tailwindcss --postcss -i css/tailwind.css -o css/tailwind-runtime.css -w",
-    "build": "cross-env NODE_ENV=production tailwindcss --postcss -i css/tailwind.css -o css/tailwind-build.css --minify",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "cross-env NODE_ENV=production tailwindcss --postcss -i css/tailwind.css -o css/tailwind-build.css --minify",
+    "copy:static": "rm -rf build && mkdir build && cp index.html build && cp index.js build && cp -R assets build/assets && cp -R scripts build/scripts && cp -R css build/css",
+    "build": "npm run build:css && npm run copy:static",
+    "test": "echo 'Error: no test specified' && exit 1"
   },
   "keywords": [
     "landing",

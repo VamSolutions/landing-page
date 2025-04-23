@@ -137,4 +137,6 @@ dist
 
 # Tailwind CSS
 css/tailwind-build.css
-css/tailwin-runtime.css
+css/tailwind-runtime.css
+
+build
