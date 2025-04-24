@@ -256,41 +256,6 @@ hr {
   background-color: var(--dropdown-hover-bg);
 }
 
-/* -------------- carousel ------------------*/
-.carousel-container {
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.carousel {
-  display: inline-block;
-  will-change: transform;
-  animation: scroll 5s linear infinite;
-}
-
-.carousel:hover {
-  animation-play-state: paused;
-}
-
-.carousel-card {
-  display: inline-block;
-  white-space: normal;
-  margin: 0 10px;
-}
-
-.carousel-card-image {
-  margin: auto;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 /* ------ animated border ------- */
 
 .animated-border {
