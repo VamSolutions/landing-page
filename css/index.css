@@ -147,14 +147,9 @@ hr {
 }
 
 .purple-bg-grad {
-  background: rgb(126, 34, 206);
-  background: linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
-  background:-webkit-linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
-  background:-moz-linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
-  background:-o-linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
-  background:-ms-linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%);
+  background: rgba(126, 34, 206, 0.3);
+  /* background: linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%); */
   filter: blur(50px);
-  opacity: 0.5;
 }
 
 #dashboard {
