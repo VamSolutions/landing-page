@@ -149,9 +149,8 @@ hr {
 
 .purple-bg-grad {
   background: rgba(126, 34, 206, 0.3);
-  /* background: linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%); */
   filter: blur(50px);
-  -webkit-filter: blur(50px)
+  -webkit-filter: blur(50px);
 }
 
 #dashboard {
