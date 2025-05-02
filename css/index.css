@@ -142,6 +142,7 @@ hr {
 .gradient-text {
   background: rgb(215, 215, 215);
   background: linear-gradient(90deg, rgba(215, 215, 215, 1) 18%, rgba(136, 136, 136, 1) 71%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -150,6 +151,7 @@ hr {
   background: rgba(126, 34, 206, 0.3);
   /* background: linear-gradient(90deg, #7e22ce91 8%, #625aafae 31%, #7badbbbc 76%, #54d2d0ca 89%); */
   filter: blur(50px);
+  -webkit-filter: blur(50px)
 }
 
 #dashboard {
