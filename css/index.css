@@ -135,7 +135,6 @@ hr {
 }
 
 .hero-bg-gradient {
-  /* background: linear-gradient(180deg, var(--hero-gradient) 13%, rgba(0,0,0,0.258140756302521) 87%); */
   background: linear-gradient(180deg, var(--hero-gradient) 23%, rgba(0, 0, 0, 0) 87%, var(--hero-gradient) 97%);
 }
 
