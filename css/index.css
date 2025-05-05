@@ -147,7 +147,7 @@ hr {
 }
 
 .purple-bg-grad {
-  background: rgba(126, 34, 206, 0.3);
+  background: rgba(126, 34, 206, 0.5);
   filter: blur(50px);
   -webkit-filter: blur(50px);
 }
